@@ -25,10 +25,6 @@ class Home extends Component {
     this.renderItem = this.renderItem.bind(this);
   }
 
-  componentDidMount() {
-
-  }
-
   render() {
     if (this.props.loading) {
       return (
